@@ -11,10 +11,10 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://chillinPanda.github.io',
+  url: 'https://www.yoyobao.de',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/yoyobao.de/',
+  baseUrl: '/',
 
   // GitHub pages deployment config.
   organizationName: 'chillinPanda',
