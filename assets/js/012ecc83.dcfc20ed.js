@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkyoyobao_de=self.webpackChunkyoyobao_de||[]).push([[6362],{493:o=>{o.exports=JSON.parse('{"permalink":"/yoyobao.de/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
