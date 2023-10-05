@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkyoyobao_de=self.webpackChunkyoyobao_de||[]).push([[5006],{4434:o=>{o.exports=JSON.parse('{"permalink":"/yoyobao.de/blog/tags/facebook","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

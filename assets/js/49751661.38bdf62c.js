@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkyoyobao_de=self.webpackChunkyoyobao_de||[]).push([[2138],{5930:o=>{o.exports=JSON.parse('{"label":"docusaurus","permalink":"/yoyobao.de/blog/tags/docusaurus","allTagsPath":"/yoyobao.de/blog/tags","count":4}')}}]);

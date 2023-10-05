@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkyoyobao_de=self.webpackChunkyoyobao_de||[]).push([[5474],{5313:o=>{o.exports=JSON.parse('{"permalink":"/yoyobao.de/blog/tags/hello","page":1,"postsPerPage":10,"totalPages":1,"totalCount":2,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
