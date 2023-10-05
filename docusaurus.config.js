@@ -101,6 +101,23 @@ const config = {
           },
  **/
           {
+            title: 'BurninBerlin',
+            items: [
+              {
+                label: 'Facebook',
+                href: 'https://www.facebook.com/BurninBerlin',
+              },
+              {
+                label: 'Instagram',
+                href: 'https://www.instagram.com/burninberlin',
+              },
+              {
+                label: 'BurninBerlin Open',
+                href: 'https://www.facebook.com/BurninBerlinOpen',
+              },
+            ],
+          },
+          {
             title: 'More',
             items: [
 /**
@@ -109,6 +126,10 @@ const config = {
                 to: '/blog',
               },
 **/
+              {
+                label: 'German Yoyo Association',
+                href: 'https://gyya.de',
+              },
               {
                 label: 'GitHub',
                 href: 'https://github.com/chillinPanda/yoyobao.de',
