@@ -70,6 +70,7 @@ const config = {
           src: 'img/logo.svg',
         },
         items: [
+/*
           {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
@@ -82,11 +83,13 @@ const config = {
             label: 'GitHub',
             position: 'right',
           },
+ */
         ],
       },
       footer: {
         style: 'dark',
         links: [
+/**
           {
             title: 'Docs',
             items: [
@@ -96,6 +99,7 @@ const config = {
               },
             ],
           },
+ **/
           {
             title: 'Community',
             items: [
@@ -116,10 +120,12 @@ const config = {
           {
             title: 'More',
             items: [
+/**
               {
                 label: 'Blog',
                 to: '/blog',
               },
+**/
               {
                 label: 'GitHub',
                 href: 'https://github.com/chillinPanda/yoyobao.de',
