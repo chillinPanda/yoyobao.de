@@ -10,32 +10,38 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
+    title: 'German Yoyo Nationals 2023',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        <p>
+          <a href={"https://gyya.de/deutsche-yo-yo-meisterschaft/deutsche-yo-yo-meisterschaft-2023"} target={"blank"}>GYYA page for 2023 nationals</a>
+        </p>
+        <p>
+          <a href={"https://www.youtube.com/@deutscheyo-yomeisterschaft7356/streams"} target={"blank"}>Livestreams to re-watch</a>
+        </p>
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
-    description: (
-      <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
-      </>
-    ),
-  },
-  {
-    title: 'Powered by React',
+    title: 'BurninBerlin Open Contest 2024',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        <p>
+          <a href={"https://www.facebook.com/events/flakturm-humboldthain/burninberlin-open-yoyocontest-2024/661038858937892/"} target={"blank"}>Facebook Event Page</a>
+        </p>
+      </>
+    ),
+  },
+  {
+    title: 'German Yoyo Nationals 2022',
+    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    description: (
+      <>
+        <p>
+          <a href={"https://gyya.de/deutsche-yo-yo-meisterschaft/deutsche-yo-yo-meisterschaft-2022"} target={"blank"}>GYYA page for 2022 nationals</a>
+        </p>
       </>
     ),
   },
