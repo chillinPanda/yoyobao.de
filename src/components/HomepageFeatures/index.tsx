@@ -4,14 +4,14 @@ import styles from './styles.module.css';
 
 type FeatureItem = {
   title: string;
-  Svg: React.ComponentType<React.ComponentProps<'svg'>>;
+  imgSrc: string;
   description: React.JSX.Element;
 };
 
 const FeatureList: FeatureItem[] = [
   {
     title: 'German Yoyo Nationals 2023',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    imgSrc: require('@site/static/img/hero/german_nats_logo.png').default,
     description: (
       <>
         <p>
@@ -25,7 +25,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'BurninBerlin Open Contest 2024',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    imgSrc: require('@site/static/img/hero/bbo_cover_image.png').default,
     description: (
       <>
         <p>
@@ -36,7 +36,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'German Yoyo Nationals 2022',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    imgSrc: require('@site/static/img/hero/german_nats_logo.png').default,
     description: (
       <>
         <p>
@@ -47,11 +47,11 @@ const FeatureList: FeatureItem[] = [
   },
 ];
 
-function Feature({title, Svg, description}: FeatureItem) {
+function Feature({title, imgSrc, description}: FeatureItem) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
+        <img className={styles.featureSvg} src={imgSrc} alt="" />
       </div>
       <div className="text--center padding-horiz--md">
         <h3>{title}</h3>
